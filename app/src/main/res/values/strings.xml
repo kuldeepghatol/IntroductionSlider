@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IntroductionSlider</string>
+
+    <string name="slider_1_title">E-Learning</string>
+    <string name="slider_1_desc">Online Learning Portal</string>
+
+
+    <string name="my_preference">"com.abc.com.MyPref"</string>
+    <string name="my_preference_key">"com.abc.com.MyPref"</string>
+</resources>
