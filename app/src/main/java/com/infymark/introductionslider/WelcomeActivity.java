@@ -18,7 +18,7 @@ public class WelcomeActivity extends AppCompatActivity {
     private int[] layouts =
 
             {
-                    R.layout.first_slide, R.layout.second_slide, R.layout.third_slide, R.layout.first_slide
+                    R.layout.first_slide, R.layout.second_slide, R.layout.third_slide, R.layout.fourth_slide
             };
 
 
@@ -54,11 +54,13 @@ public class WelcomeActivity extends AppCompatActivity {
 
         mPager.setAdapter(mPageAdapter);
 
+
+
         //For circular page indicator
 
- /*       Dots_Layout = (LinearLayout) findViewById(R.id.dotsLayout);
+        Dots_Layout = (LinearLayout) findViewById(R.id.dotsLayout);
 
-        createDots(0);*/
+        //createDots(0);
 
        /* mPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 

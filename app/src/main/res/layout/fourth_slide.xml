@@ -15,7 +15,7 @@
         android:maxWidth="150dp"
         android:maxHeight="150dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/ic_elearning" />
+        android:src="@drawable/ic_flight" />
 
     <TextView
         android:id="@+id/title"
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/img"
         android:textStyle="bold"
-        android:text="@string/slider_1_title"
+        android:text="Flights"
         android:gravity="center_horizontal"
         android:layout_marginTop="12dp"
         android:textSize="30dp"
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:gravity="center_horizontal"
-        android:text="@string/slider_1_desc"
+        android:text="Flight Bookings"
         android:textSize="25dp"
         />
 

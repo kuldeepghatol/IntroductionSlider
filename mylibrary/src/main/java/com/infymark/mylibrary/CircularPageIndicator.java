@@ -17,7 +17,7 @@ public class CircularPageIndicator extends LinearLayout implements ViewPager.OnP
 
     private ImageView[] dots;
     private LinearLayout Dots_Layout;
-    private int length=10;
+    private int length=4;
 
     public CircularPageIndicator(Context context) {
         super(context);
